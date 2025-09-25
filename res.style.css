@@ -1,0 +1,49 @@
+@media(max-width: 1600px) {
+    .navigation {
+        width: 48%;
+    }
+}
+
+
+@media(max-width: 1480px) {
+    .lotus {
+        height: 55px;
+    }
+
+    .navigation {
+        font-size: 15px;
+        width: 52%
+    }
+}
+
+@media(max-width: 1180px) {
+    .headline {
+        font-size: 13px;
+    }
+
+    .phonelink {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .phone {
+        width: 25px;
+        height: 25px;
+    }
+
+    .ger-button {
+        height: 32px;
+        width: 46px;
+    }
+
+    .eng-button {
+        height: 32px;
+        width: 46px;
+    }
+
+    .navigation {
+        width: 48%;
+    }
+
+
+}

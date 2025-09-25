@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Raleway:wght@700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.header1 {
+    background-image: url(./img/bgr1.jpg);
+    height: 100vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sakuraramen {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 2.4em;
+}
+
+.maintitel {
+    margin-block-end: 2%;
+}
+
+.thebestramenintown {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.4em;
+}
+
+.headliner2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    font-size: 15px;
+    width: 100%;
+}
+
+.lotus {
+    height: 80px;
+}
+
+.ger-button {
+    background-image: url(./img/de.jpg);
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+}
+
+.ger-button:hover {
+    background-image: url(./img/de2.jpg);
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+}
+
+.eng-button {
+    background-image: url(./img/eng.jpg);
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+}
+
+.eng-button:hover {
+    background-image: url(./img/eng2.jpg);
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 40%;
+    font-size: 20px;
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:any-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a.phonelink:hover {
+    background-color: #db3630;
+}
+
+.menu a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+}
+
+.phonelink {
+    display: flex;
+    background-color: darkred;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    padding: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone {
+    width: 40px;
+    height: 40px;
+    padding-right: 6px;
+}
+
+.headlinerhowtoorder {
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.howtoorderh2 {
+    margin-top: 35px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Economica', sans-serif;
+    padding-bottom: 35px;
+}
+
+.toppings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toppingsimg {
+    height: 105px;
+}
+
+.noodletitel {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.menucontainer {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading3 {
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 80px;
+    font-family: 'Economica', sans-serif;
+    margin-block-start: 0.63%;
+}
+
+.tonramen {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 75px;
+}
+
+.tonramen2 {
+    display: block;
+}
+
+.soupimg {
+    object-fit: cover;
+}
+
+.tonmenu {
+    display: block;
+}
+
+.tableheading {
+    font-family: 'Economica', sans-serif;
+    font-size: 55px;
+}
+
+.tablecontent {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 500px;
+    color: gray;
+    border-spacing: 10px;
+}
+
+.tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.tonramen2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.locationheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    color: darkred;
+    margin-top: 30px;
+}
+
+.adress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    padding-right: 5%;
+    padding-bottom: 27px;
+}
+
+.naviimg {
+    height: 30px;
+    padding-right: 10px;
+    object-fit: cover;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.lotus2 {
+    height: 55px;
+    padding-left: 10%;
+}
+
+.sozialimg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.facebook {
+    height: 55px;
+}
+
+.instatripad {
+    height: 55px;
+    padding-left: 40px;
+}
+
+.googlenavi {
+    border: 0;
+    width: 100%;
+    height: 475px;
+}
+
+@media(max-width: 1000px) {
+
+    .navigation {
+        display: none;
+    }
+
+    .headliner2 {
+        width: 100px;
+    }
+
+    .lotus {
+        height: 60px;
+    }
+
+    .sakuraramen {
+        font-size: 1.4em;
+    }
+
+    .secondcontainer {
+        height: 100vh;
+    }
+
+    .howtoorderh2 {
+        font-size: 1em;
+    }
+
+    .order {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .toppings {
+        padding-top: 60px;
+    }
+
+    .heading3 {
+        font-size: 3.2em;
+    }
+
+    .tonramen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 35px;
+    }
+
+    .menucontainer {
+        background-size: cover;
+    }
+
+    .soupimg {
+        width: 85%;
+    }
+
+    .tonmenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tablecontent {
+        font-size: 1.5em;
+        width: 300px;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .locationheader {
+        font-size: 2.6em;
+    }
+
+    .adress {
+        font-size: 1.1em;
+    }
+
+    .logos {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 100px;
+    }
+
+    .lotus2 {
+
+        width: 200px;
+        object-fit: contain;
+        padding: 0;
+
+    }
+
+    .sozialimg {
+        padding-right: 5px;
+        padding-left: 10px;
+        width: 200px;
+
+    }
+
+    .facebook {
+        height: 35px;
+
+    }
+
+    .instatripad {
+        height: 35px;
+        padding-left: 5px;
+    }
+}
